@@ -1,12 +1,3 @@
-2019.04 - version 1.4.0
-* Added support for OAuth authentication.
-* Resolved some issues on Linux platform.
-
-2019.03 - version 1.3.0
-* Fixed a bug where blob name '0' cannot be created.
-* Documentation refinement.
-* `ListContainer` now can have ETag more robustly fetched from response header.
-
 2018.08 - version 1.2.0
 
 * Updated Azure Storage API version from 2016-05-31 to 2017-04-17.

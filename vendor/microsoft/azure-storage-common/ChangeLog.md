@@ -1,10 +1,3 @@
-2019.04 - version 1.4.0
-* Added support for OAuth authentication.
-* Resolved some issues on Linux platform.
-
-2019.03 - version 1.3.0
-* Documentation refinement.
-
 2018.08 - version 1.2.0
 
 * Fixed a bug `generateCanonicalResource` returns an empty string if `$resource` starts with "/".
