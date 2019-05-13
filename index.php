@@ -11,8 +11,7 @@
     $connectionString = "DefaultEndpointsProtocol=https;AccountName=fandowebapp2;AccountKey=PeNnkVFw2vvf0K4zFxDVZWsejpZojVvCnFLnrCn6ntOy4QCkMGzZ9xpMIm255eajAkIiAxy10cu3//p34nxhag==;";
 
     $containerName = "fandocontainer";
-    
-    // Create blob client.
+     
     $blobClient = BlobRestProxy::createBlobService($connectionString);
     if (isset($_POST['submit'])) {
         $fileToUpload = strtolower($_FILES["fileToUpload"]["name"]);
@@ -31,9 +30,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        
+
         <title>Analisa Gambar</title>
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     </head>
@@ -53,11 +50,9 @@
         <div class="container" class=col-md-8>
             <h2>Analisa Gambar dengan Azure Computer Vision</h2><hr>
             <p align="left">
-                1. Pilih Choose File untuk memilih gambar yang akan di Analisa.<br>
-                2. Lalu Klik Upload<br>
-                3. Klik Analisa untuk pada tabel menganalisa gambar.
+                Pilih gambar yang akan di Analisa.
             </p>
-            <form class="d-flex justify-content-center" action="index.php" method="post" enctype="multipart/form-data">
+            <form class="" action="index.php" method="post" enctype="multipart/form-data">
               <input type="file" name="fileToUpload" accept=".jpeg,.jpg,.png" required=""><br>
               <input type="submit" name="submit" value="Upload" class="btn btn-primary btn-sm">
             </form><br>
@@ -96,11 +91,8 @@
         </div>
       <!-- akhir content -->
 
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
-    <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
-    <script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
-      </div>
-
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
+        <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
+        <script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
