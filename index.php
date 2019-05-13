@@ -23,7 +23,7 @@
     $listBlobsOptions = new ListBlobsOptions();
     $listBlobsOptions->setPrefix("");
     $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
-?>
+?> 
 
 <!DOCTYPE html>
 <html lang="en">
