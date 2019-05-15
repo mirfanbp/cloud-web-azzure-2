@@ -8,7 +8,7 @@
     use MicrosoftAzure\Storage\Blob\Models\CreateContainerOptions;
     use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
 
-    $connectionString = "DefaultEndpointsProtocol=https;AccountName=fandowebapp2;AccountKey=PeNnkVFw2vvf0K4zFxDVZWsejpZojVvCnFLnrCn6ntOy4QCkMGzZ9xpMIm255eajAkIiAxy10cu3//p34nxhag==;";
+    $connectionString = "DefaultEndpointsProtocol=https;AccountName=irfanwebapp;AccountKey=kx+MPPujYQURhJlTUFS4Syq+rqc2Y9BZ3EYhMJfggq/UUOGuog4BG5/x7WRw83OcI0L/3Qj5ZRjDSq1nhGeH0g==;";
 
     $containerName = "fandocontainer";
      
