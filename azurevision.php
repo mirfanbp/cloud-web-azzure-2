@@ -24,7 +24,7 @@ if (isset($_POST['submit'])) {
         // **********************************************
  
         // Replace <Subscription Key> with your valid subscription key.
-        var subscriptionKey = "2342e0bbb150441eacf9842baa62ca33";
+        var subscriptionKey = "afca35e701914d93b6c27c1e18a8c202";
  
         // You must use the same Azure region in your REST API method as you used to
         // get your subscription keys. For example, if you got your subscription keys
